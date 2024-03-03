@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA21EF572B48530D004E9B02 /* MyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21EF562B48530D004E9B02 /* MyAppApp.swift */; };
+		DA21EF592B48530D004E9B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21EF582B48530D004E9B02 /* ContentView.swift */; };
+		DA21EF5B2B48530E004E9B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA21EF5A2B48530E004E9B02 /* Assets.xcassets */; };
+		DA21EF5F2B48530E004E9B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA21EF5E2B48530E004E9B02 /* Preview Assets.xcassets */; };
+		DA21EF692B48530E004E9B02 /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21EF682B48530E004E9B02 /* MyAppTests.swift */; };
+		DA21EF732B48530E004E9B02 /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21EF722B48530E004E9B02 /* MyAppUITests.swift */; };
+		DA21EF752B48530E004E9B02 /* MyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21EF742B48530E004E9B02 /* MyAppUITestsLaunchTests.swift */; };
+		DA4FDB9B2B5B7F78006E719E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4FDB9A2B5B7F78006E719E /* UIKit.framework */; };
+		DA8C4D772B67BF950017FCEB /* iPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C4D762B67BF950017FCEB /* iPadView.swift */; };
+		DA8C4D792B67D49B0017FCEB /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C4D782B67D49B0017FCEB /* Detector.swift */; };
+		DA8C4D7B2B67D5310017FCEB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8C4D7A2B67D5310017FCEB /* AVFoundation.framework */; };
+		DA94C84A2B558858002D2ACE /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA94C8492B558858002D2ACE /* CoreHaptics.framework */; };
+		DAC674892B52A9A800483183 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC674882B52A9A800483183 /* Buttons.swift */; };
+		DAD499B92B596A7800B81BFE /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD499B82B596A7800B81BFE /* Vision.framework */; };
+		DAD499BB2B596A7C00B81BFE /* VisionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD499BA2B596A7C00B81BFE /* VisionKit.framework */; };
+		DAF060B32B680A4900E84238 /* YOLOv3Tiny.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DAF060B22B680A4900E84238 /* YOLOv3Tiny.mlpackage */; };
+		DAF3B65E2B52E9E40016AED7 /* ImageSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3B65D2B52E9E40016AED7 /* ImageSelect.swift */; };
+		DAF3B6612B5392660016AED7 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF3B6602B5392660016AED7 /* CoreML.framework */; };
+		DAF7DDE02B5D692300366C85 /* CmaeraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF7DDDF2B5D692300366C85 /* CmaeraView.swift */; };
+		DAF7DDE22B5D6A5300366C85 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF7DDE12B5D6A5300366C85 /* Speech.framework */; };
+		DAF7DDE42B5D7A0900366C85 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF7DDE32B5D7A0900366C85 /* Camera.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA21EF652B48530E004E9B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA21EF4B2B48530D004E9B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA21EF522B48530D004E9B02;
+			remoteInfo = MyApp;
+		};
+		DA21EF6F2B48530E004E9B02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA21EF4B2B48530D004E9B02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA21EF522B48530D004E9B02;
+			remoteInfo = MyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA21EF532B48530D004E9B02 /* DirectVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA21EF562B48530D004E9B02 /* MyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppApp.swift; sourceTree = "<group>"; };
+		DA21EF582B48530D004E9B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA21EF5A2B48530E004E9B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA21EF5C2B48530E004E9B02 /* MyApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyApp.entitlements; sourceTree = "<group>"; };
+		DA21EF5E2B48530E004E9B02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA21EF642B48530E004E9B02 /* DirectVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA21EF682B48530E004E9B02 /* MyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppTests.swift; sourceTree = "<group>"; };
+		DA21EF6E2B48530E004E9B02 /* DirectVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA21EF722B48530E004E9B02 /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
+		DA21EF742B48530E004E9B02 /* MyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA4FDB9A2B5B7F78006E719E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA8C4D762B67BF950017FCEB /* iPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadView.swift; sourceTree = "<group>"; };
+		DA8C4D782B67D49B0017FCEB /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		DA8C4D7A2B67D5310017FCEB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DA94C8492B558858002D2ACE /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/CoreHaptics.framework; sourceTree = DEVELOPER_DIR; };
+		DAC674882B52A9A800483183 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		DAD499B82B596A7800B81BFE /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/Vision.framework; sourceTree = DEVELOPER_DIR; };
+		DAD499BA2B596A7C00B81BFE /* VisionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisionKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/VisionKit.framework; sourceTree = DEVELOPER_DIR; };
+		DAF060B22B680A4900E84238 /* YOLOv3Tiny.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = YOLOv3Tiny.mlpackage; sourceTree = "<group>"; };
+		DAF3B65D2B52E9E40016AED7 /* ImageSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelect.swift; sourceTree = "<group>"; };
+		DAF3B6602B5392660016AED7 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/CoreML.framework; sourceTree = DEVELOPER_DIR; };
+		DAF3B6622B53CC760016AED7 /* DirectVision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DirectVision-Info.plist"; sourceTree = "<group>"; };
+		DAF7DDDF2B5D692300366C85 /* CmaeraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CmaeraView.swift; sourceTree = "<group>"; };
+		DAF7DDE12B5D6A5300366C85 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		DAF7DDE32B5D7A0900366C85 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA21EF502B48530D004E9B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA94C84A2B558858002D2ACE /* CoreHaptics.framework in Frameworks */,
+				DAD499B92B596A7800B81BFE /* Vision.framework in Frameworks */,
+				DAF3B6612B5392660016AED7 /* CoreML.framework in Frameworks */,
+				DAD499BB2B596A7C00B81BFE /* VisionKit.framework in Frameworks */,
+				DAF7DDE22B5D6A5300366C85 /* Speech.framework in Frameworks */,
+				DA8C4D7B2B67D5310017FCEB /* AVFoundation.framework in Frameworks */,
+				DA4FDB9B2B5B7F78006E719E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA21EF612B48530E004E9B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA21EF6B2B48530E004E9B02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1E26922B495A910042BE97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAF060B22B680A4900E84238 /* YOLOv3Tiny.mlpackage */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA21EF4A2B48530D004E9B02 = {
+			isa = PBXGroup;
+			children = (
+				DAF3B6622B53CC760016AED7 /* DirectVision-Info.plist */,
+				DA21EF552B48530D004E9B02 /* MyApp */,
+				DA21EF672B48530E004E9B02 /* MyAppTests */,
+				DA21EF712B48530E004E9B02 /* MyAppUITests */,
+				DA21EF542B48530D004E9B02 /* Products */,
+				DAF3B65F2B5392660016AED7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA21EF542B48530D004E9B02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA21EF532B48530D004E9B02 /* DirectVision.app */,
+				DA21EF642B48530E004E9B02 /* DirectVisionTests.xctest */,
+				DA21EF6E2B48530E004E9B02 /* DirectVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA21EF552B48530D004E9B02 /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA21EF562B48530D004E9B02 /* MyAppApp.swift */,
+				DAC674882B52A9A800483183 /* Buttons.swift */,
+				DA21EF582B48530D004E9B02 /* ContentView.swift */,
+				DA8C4D762B67BF950017FCEB /* iPadView.swift */,
+				DAF7DDDF2B5D692300366C85 /* CmaeraView.swift */,
+				DA8C4D782B67D49B0017FCEB /* Detector.swift */,
+				DAF7DDE32B5D7A0900366C85 /* Camera.swift */,
+				DAF3B65D2B52E9E40016AED7 /* ImageSelect.swift */,
+				DA1E26922B495A910042BE97 /* Models */,
+				DA21EF5A2B48530E004E9B02 /* Assets.xcassets */,
+				DA21EF5C2B48530E004E9B02 /* MyApp.entitlements */,
+				DA21EF5D2B48530E004E9B02 /* Preview Content */,
+			);
+			path = MyApp;
+			sourceTree = "<group>";
+		};
+		DA21EF5D2B48530E004E9B02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA21EF5E2B48530E004E9B02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA21EF672B48530E004E9B02 /* MyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA21EF682B48530E004E9B02 /* MyAppTests.swift */,
+			);
+			path = MyAppTests;
+			sourceTree = "<group>";
+		};
+		DA21EF712B48530E004E9B02 /* MyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA21EF722B48530E004E9B02 /* MyAppUITests.swift */,
+				DA21EF742B48530E004E9B02 /* MyAppUITestsLaunchTests.swift */,
+			);
+			path = MyAppUITests;
+			sourceTree = "<group>";
+		};
+		DAF3B65F2B5392660016AED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA8C4D7A2B67D5310017FCEB /* AVFoundation.framework */,
+				DAF7DDE12B5D6A5300366C85 /* Speech.framework */,
+				DA4FDB9A2B5B7F78006E719E /* UIKit.framework */,
+				DAD499BA2B596A7C00B81BFE /* VisionKit.framework */,
+				DAD499B82B596A7800B81BFE /* Vision.framework */,
+				DA94C8492B558858002D2ACE /* CoreHaptics.framework */,
+				DAF3B6602B5392660016AED7 /* CoreML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA21EF522B48530D004E9B02 /* DirectVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA21EF782B48530E004E9B02 /* Build configuration list for PBXNativeTarget "DirectVision" */;
+			buildPhases = (
+				DA21EF4F2B48530D004E9B02 /* Sources */,
+				DA21EF502B48530D004E9B02 /* Frameworks */,
+				DA21EF512B48530D004E9B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectVision;
+			productName = MyApp;
+			productReference = DA21EF532B48530D004E9B02 /* DirectVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA21EF632B48530E004E9B02 /* DirectVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA21EF7B2B48530E004E9B02 /* Build configuration list for PBXNativeTarget "DirectVisionTests" */;
+			buildPhases = (
+				DA21EF602B48530E004E9B02 /* Sources */,
+				DA21EF612B48530E004E9B02 /* Frameworks */,
+				DA21EF622B48530E004E9B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA21EF662B48530E004E9B02 /* PBXTargetDependency */,
+			);
+			name = DirectVisionTests;
+			productName = MyAppTests;
+			productReference = DA21EF642B48530E004E9B02 /* DirectVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA21EF6D2B48530E004E9B02 /* DirectVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA21EF7E2B48530E004E9B02 /* Build configuration list for PBXNativeTarget "DirectVisionUITests" */;
+			buildPhases = (
+				DA21EF6A2B48530E004E9B02 /* Sources */,
+				DA21EF6B2B48530E004E9B02 /* Frameworks */,
+				DA21EF6C2B48530E004E9B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA21EF702B48530E004E9B02 /* PBXTargetDependency */,
+			);
+			name = DirectVisionUITests;
+			productName = MyAppUITests;
+			productReference = DA21EF6E2B48530E004E9B02 /* DirectVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA21EF4B2B48530D004E9B02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DA21EF522B48530D004E9B02 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					DA21EF632B48530E004E9B02 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DA21EF522B48530D004E9B02;
+					};
+					DA21EF6D2B48530E004E9B02 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = DA21EF522B48530D004E9B02;
+					};
+				};
+			};
+			buildConfigurationList = DA21EF4E2B48530D004E9B02 /* Build configuration list for PBXProject "DirectVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA21EF4A2B48530D004E9B02;
+			productRefGroup = DA21EF542B48530D004E9B02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA21EF522B48530D004E9B02 /* DirectVision */,
+				DA21EF632B48530E004E9B02 /* DirectVisionTests */,
+				DA21EF6D2B48530E004E9B02 /* DirectVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA21EF512B48530D004E9B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA21EF5F2B48530E004E9B02 /* Preview Assets.xcassets in Resources */,
+				DA21EF5B2B48530E004E9B02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA21EF622B48530E004E9B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA21EF6C2B48530E004E9B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA21EF4F2B48530D004E9B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8C4D772B67BF950017FCEB /* iPadView.swift in Sources */,
+				DAF060B32B680A4900E84238 /* YOLOv3Tiny.mlpackage in Sources */,
+				DA21EF592B48530D004E9B02 /* ContentView.swift in Sources */,
+				DA21EF572B48530D004E9B02 /* MyAppApp.swift in Sources */,
+				DA8C4D792B67D49B0017FCEB /* Detector.swift in Sources */,
+				DAF7DDE02B5D692300366C85 /* CmaeraView.swift in Sources */,
+				DAF3B65E2B52E9E40016AED7 /* ImageSelect.swift in Sources */,
+				DAF7DDE42B5D7A0900366C85 /* Camera.swift in Sources */,
+				DAC674892B52A9A800483183 /* Buttons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA21EF602B48530E004E9B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA21EF692B48530E004E9B02 /* MyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA21EF6A2B48530E004E9B02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA21EF752B48530E004E9B02 /* MyAppUITestsLaunchTests.swift in Sources */,
+				DA21EF732B48530E004E9B02 /* MyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA21EF662B48530E004E9B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA21EF522B48530D004E9B02 /* DirectVision */;
+			targetProxy = DA21EF652B48530E004E9B02 /* PBXContainerItemProxy */;
+		};
+		DA21EF702B48530E004E9B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA21EF522B48530D004E9B02 /* DirectVision */;
+			targetProxy = DA21EF6F2B48530E004E9B02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA21EF762B48530E004E9B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA21EF772B48530E004E9B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DA21EF792B48530E004E9B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyApp/MyApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NGHY4375Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DirectVision-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used for image recognition";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul-1437.MyApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA21EF7A2B48530E004E9B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyApp/MyApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8NGHY4375Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DirectVision-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used for image recognition";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul-1437.MyApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA21EF7C2B48530E004E9B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul-1437.MyAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DirectVision";
+			};
+			name = Debug;
+		};
+		DA21EF7D2B48530E004E9B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul-1437.MyAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DirectVision";
+			};
+			name = Release;
+		};
+		DA21EF7F2B48530E004E9B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul-1437.MyAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyApp;
+			};
+			name = Debug;
+		};
+		DA21EF802B48530E004E9B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Paul-1437.MyAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA21EF4E2B48530D004E9B02 /* Build configuration list for PBXProject "DirectVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA21EF762B48530E004E9B02 /* Debug */,
+				DA21EF772B48530E004E9B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA21EF782B48530E004E9B02 /* Build configuration list for PBXNativeTarget "DirectVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA21EF792B48530E004E9B02 /* Debug */,
+				DA21EF7A2B48530E004E9B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA21EF7B2B48530E004E9B02 /* Build configuration list for PBXNativeTarget "DirectVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA21EF7C2B48530E004E9B02 /* Debug */,
+				DA21EF7D2B48530E004E9B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA21EF7E2B48530E004E9B02 /* Build configuration list for PBXNativeTarget "DirectVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA21EF7F2B48530E004E9B02 /* Debug */,
+				DA21EF802B48530E004E9B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA21EF4B2B48530D004E9B02 /* Project object */;
+}
